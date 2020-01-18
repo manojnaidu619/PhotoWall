@@ -1,0 +1,16 @@
+body{
+  font-family: 'Permanent Marker', cursive;
+}
+
+@font-face{
+  font-family: 'Permanent Marker', cursive;
+  src: url("https://fonts.googleapis.com/css?family=Permanent+Marker:400");
+}
+
+.title{
+  h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+  }
+}

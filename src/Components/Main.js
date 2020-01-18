@@ -1,13 +1,10 @@
 import React, {Component} from 'react'
 import Title from './Title'
+import '../Styles/stylesheet.scss'
 
 class Main extends Component{
   render(){
-    return(
-      <div class="title">
-        <Title/>
-      </div>
-    )
+    return <Title />
   }
 }
 
