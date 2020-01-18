@@ -1,16 +1,45 @@
 body{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 @font-face{
-  font-family: 'Permanent Marker', cursive;
-  src: url("https://fonts.googleapis.com/css?family=Permanent+Marker:400");
+  font-family: 'Luckiest Guy', cursive;
+  src: url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+}
+
+.photo-col{
+  text-align: center;
+  background-color: honeydew;
+  margin: 15px auto;
+  h2{
+    font-family: monospace;
+    font-size: 25px;
+  }
 }
 
 .title{
   h1{
+    color: #333333;
     font-size: 80px;
     text-align: center;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: bold;
   }
+}
+
+.remove-btn{
+  margin-bottom: 25px;
+  button{
+    width: 30%;
+    padding: 5px;
+    background-color: floralwhite;
+    color: orangered;
+    font-size: 20px;
+  }
+}
+
+img{
+  width: 100%;
+  margin: 15px 0px;
+  //border: 1px solid grey;
 }
